@@ -51,6 +51,8 @@ section {
 }
 
 .header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
@@ -97,6 +99,8 @@ section {
   color: #2e2f42;
   cursor: pointer;
   padding: 24px 0;
+  color: #404bbf;
+  position: relative;
 }
 
 .header-menu-link:hover {
@@ -144,6 +148,7 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 
 .hero-wrap {
@@ -175,6 +180,7 @@ section {
   display: block;
   min-width: 169px;
   height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-main:hover {
@@ -208,11 +214,14 @@ section {
   gap: 24px;
 }
 
-.features-img-box {
+.features-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 264px;
-  height: 112px;
   margin-bottom: 8px;
 }
 
@@ -292,6 +301,9 @@ section {
 .team-social-img {
   width: 40px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .portfolio {
