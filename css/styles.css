@@ -136,6 +136,14 @@ section {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-wrap {
@@ -198,6 +206,14 @@ section {
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.features-img-box {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
 }
 
 .features-item {
@@ -270,6 +286,12 @@ section {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-social-img {
+  width: 40px;
+  height: 40px;
 }
 
 .portfolio {
@@ -326,6 +348,11 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.footer-container {
+  display: flex;
+}
+
 .footer-name {
   color: #f4f4fd;
 }
@@ -346,4 +373,24 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 263px;
+}
+
+.SLmedia {
+}
+
+.SLmedia-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-icon-list {
+  display: flex;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
 }
